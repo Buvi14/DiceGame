@@ -93,6 +93,7 @@ function checkIfWinnerExists() {
   }
 }
 
+// function for starting a new game
 function newGame() {
   document.getElementById("form-container").reset();
   document.getElementById("form-container").style.display = "flex";
@@ -100,6 +101,7 @@ function newGame() {
   window.location.reload();
 }
 
+// Function for restart the current game
 function restartTheGame() {
   console.log(document.location);
   document
